@@ -18,6 +18,12 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Linked_list\_List_H.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Linked_list\基本操作.c" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{4497CBBA-9646-4337-ACC7-C037B0AEF084}</ProjectGuid>
