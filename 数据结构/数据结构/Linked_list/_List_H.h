@@ -5,7 +5,7 @@
 #include<stdlib.h>
 
 struct Node;
-typedef int ElemType;
+typedef char ElemType;
 typedef struct Node* PtrToNode;
 typedef PtrToNode List;
 typedef PtrToNode Position;

@@ -23,5 +23,8 @@
     <ClCompile Include="Linked_list\基本操作.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Linked_list\逆波兰表达式转换.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

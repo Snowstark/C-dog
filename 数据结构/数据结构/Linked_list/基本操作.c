@@ -40,7 +40,7 @@ void Delete(ElemType X, List L)
 {
 	Position P, TmpCell;
 	
-	P = FindPrevious(X, L);
+	P = PriorElem(X, L);
 
 	if (!IsLast(P, L))//X is found in L and P->next->ElemType = X
 	{
@@ -115,7 +115,7 @@ Position NextElem(ElemType X, List L)
 	}
 	if (NULL == P->Next)
 	{
-		prinf("Error! X is the last element!\n");
+		printf("Error! X is the last element!\n");
 	}
 	P = P->Next;
 
@@ -131,7 +131,6 @@ void ListInsert(ElemType X, List L, int i)
 	if (i > L->Element)
 	{
 		printf("Error!\n");
-		return 0;
 	}
 	P = L;
 	TmpCell = (Position)calloc(1, sizeof(struct Node));
@@ -172,6 +171,7 @@ void DestoryList(List L)
 //initlize the list, element means number of Node(except the first Node).
 void InitList(List L)
 {
+
 	L->Next = NULL;
 	L->Element = 0;
 }
