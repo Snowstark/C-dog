@@ -15,15 +15,12 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Linked_list\_List_H.h">
+    <ClInclude Include="binary_tree\_Tree_H.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Linked_list\基本操作.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Linked_list\逆波兰表达式转换.c">
+    <ClCompile Include="binary_tree\基本操作.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
