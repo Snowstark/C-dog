@@ -19,10 +19,10 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="binary_tree\_Tree_H.h" />
+    <ClInclude Include="AVL平衡查找树\_AvlTree_H.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="binary_tree\基本操作.c" />
+    <ClCompile Include="AVL平衡查找树\Basic_function.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
